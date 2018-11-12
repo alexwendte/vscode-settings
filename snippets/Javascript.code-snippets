@@ -1,0 +1,77 @@
+{
+  "Print to console": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "clg",
+    "body": ["console.log(${1:object})"],
+    "description": "Log output to console"
+  },
+  "Document Query Selector": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "dqs",
+    "body": ["document.querySelector('$1')", "$0"],
+    "description": "Add Document Query Selector"
+  },
+  "Document Query Selector All": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "dqsa",
+    "body": ["document.querySelectorAll('$1')", "$0"],
+    "description": "Add Document Query Selector All"
+  },
+  "Document Create Element": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "dce",
+    "body": ["document.createElement('$1')", "$0"],
+    "description": "Add Document Query Selector All"
+  },
+  "Function": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "fun",
+    "body": ["function ${1:name}($2) {", "\t$0", "}"],
+    "description": "Create a function"
+  },
+  "Add Event Listener": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "ael",
+    "body": [
+      "${1:element}.addEventListener('${2:event}', ${3:callback})",
+      "\t$0"
+    ],
+    "description": "Add an event listener"
+  },
+  "Insert String Variable": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "sv",
+    "body": ["${${1:variable}}"],
+    "description": "Insert String Variable"
+  },
+  "Create Describe Block": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "des",
+    "body": ["describe('$1', () => {", "\t$0", "})"],
+    "description": "Create Describe Block"
+  },
+  "Create It Block": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "it",
+    "body": ["it('should $1', () => {", "\t$0", "})"],
+    "description": "Create It Block"
+  },
+  "Create Test Block": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "test",
+    "body": ["test('$1', () => {", "\t$0", "})"],
+    "description": "Create Test Block"
+  },
+  "To Have Been Called Times": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "thbc",
+    "body": ["toHaveBeenCalledTimes($1)"],
+    "description": "Create toHaveBeenCalledTimes"
+  },
+  "To Have Been Called With": {
+    "scope": "typescriptreact, javascript,typescript, html",
+    "prefix": "thbcw",
+    "body": ["toHaveBeenCalledWith($1)"],
+    "description": "Create toHaveBeenCalledWith"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "Border Radius": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "br",
+    "body": ["border-radius: ${1:5px};"],
+    "description": "Insert Border Radius"
+  },
+  "Position": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "po",
+    "body": ["position: ${1:relative};"],
+    "description": "Set Position"
+  },
+  "Display": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "di",
+    "body": ["display: ${1:block};"],
+    "description": "Set Display"
+  },
+  "Padding": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "pa",
+    "body": ["padding: $1rem;"],
+    "description": "Set Padding"
+  },
+  "Padding Top": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "pt",
+    "body": ["padding-top: $1rem;"],
+    "description": "Set Padding Top"
+  },
+  "Padding Right": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "pr",
+    "body": ["padding-right: $1rem;"],
+    "description": "Set Padding Right"
+  },
+  "Padding Bottom": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "pb",
+    "body": ["padding-bottom: $1rem;"],
+    "description": "Set Padding Bottom"
+  },
+  "Padding Left": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "pl",
+    "body": ["padding-left: $1rem;"],
+    "description": "Set Padding Left"
+  },
+  "Margin": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "ma",
+    "body": ["margin: $1rem;"],
+    "description": "Set Margin"
+  },
+  "Margin Top": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "mt",
+    "body": ["margin-top: $1rem;"],
+    "description": "Set Margin Top"
+  },
+  "Margin Right": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "mr",
+    "body": ["margin-right: $1rem;"],
+    "description": "Set Margin Right"
+  },
+  "Margin Bottom": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "mb",
+    "body": ["margin-bottom: $1rem;"],
+    "description": "Set Margin Bottom"
+  },
+  "Margin Left": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "ml",
+    "body": ["margin-left: $1rem;"],
+    "description": "Set Margin Left"
+  },
+  "Create Documentation": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "cdoc",
+    "body": ["/*", " *  ${1:}", " */"],
+    "description": "Create a documenting comment"
+  },
+  "Font Weight": {
+    "scope": "css, stylus, sass, tsx, ts",
+    "prefix": "fw",
+    "body": ["font-weight: $1;"],
+    "description": "Set Margin Left"
+  },
+  "Text Align Center": {
+    "scope": "javascript, tsx, ts, css",
+    "prefix": "tac",
+    "body": ["text-align: center;"],
+    "description": "Text Align Center"
+  },
+  "Display Flex": {
+    "scope": "javascript, tsx, ts, css",
+    "prefix": "df",
+    "body": ["display: flex;"],
+    "description": "Display Flex"
+  },
+  "Flex Direction Column": {
+    "scope": "javascript, tsx, ts, css",
+    "prefix": "fdc",
+    "body": ["flex-direction: column;"],
+    "description": "Flex Direction Column"
+  }
+}

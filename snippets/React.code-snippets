@@ -1,0 +1,84 @@
+{
+  "Create React Class": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "crc",
+    "body": [
+      "import React, { Component } from 'react'",
+      "export default class ${1:Name} extends Component {",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t\t$0",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}"
+    ],
+    "description": "Create a React class that extends Component"
+  },
+  "Create Functional Component": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "cfc",
+    "body": [
+      "const ${1:Name} = () => (",
+      "\t<div>",
+      "\t\t$0",
+      "\t</div>",
+      ")",
+      "export default $1"
+    ],
+    "description": "Create a React functional Component"
+  },
+  "Import React": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "impr",
+    "body": ["import React from 'react'"],
+    "description": "Import React"
+  },
+  "Import React Component": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "imprc",
+    "body": ["import React, { Component } from 'react'"],
+    "description": "Import React with Component"
+  },
+  "Import Prop Types": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "impp",
+    "body": [
+      "import PropTypes from 'prop-types'",
+      "${1:Component}.propTypes = {",
+      "\t${2:prop}: PropTypes.${3:type}.isRequired,",
+      "$0",
+      "}"
+    ],
+    "description": "Import Prop Types"
+  },
+  "Set Prop Types": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "fprp",
+    "body": [
+      "${1:Name}.propTypes = {",
+      "\t${2:prop}: PropTypes.${3:type}.isRequired",
+      "}"
+    ],
+    "description": "Set a functional components prop types"
+  },
+  "Comment in React": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "jc",
+    "body": ["{/* ${1:JSX Comment} */}"],
+    "description": "Create a React Comment"
+  },
+  "Prop Theme": {
+    "scope": "javascript,typescript, css",
+    "prefix": "pth",
+    "body": ["${props => props.theme.$1};"],
+    "description": "Styled Components Prop Theme"
+  },
+  "Styled Components Media Query": {
+    "scope": "javascript,typescript, css",
+    "prefix": "scm",
+    "body": ["${media.$1`", "\t$2", "`};"],
+    "description": "Styled Components Media Query"
+  }
+}
