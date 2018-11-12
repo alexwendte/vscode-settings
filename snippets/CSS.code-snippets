@@ -106,5 +106,17 @@
     "prefix": "fdc",
     "body": ["flex-direction: column;"],
     "description": "Flex Direction Column"
+  },
+  "Justify Content Center": {
+    "scope": "javascript, tsx, ts, css",
+    "prefix": "jcc",
+    "body": ["justify-content: center;"],
+    "description": "Justify Content Center"
+  },
+  "Align Items Center": {
+    "scope": "javascript, tsx, ts, css",
+    "prefix": "aic",
+    "body": ["align-items: center;"],
+    "description": "Align Items Center"
   }
 }
